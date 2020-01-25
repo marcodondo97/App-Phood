@@ -1,0 +1,308 @@
+/* XS screen */
+@media screen and (max-width:250px) {
+    #outimage {
+        margin-top: -1rem;
+
+
+    }
+
+    .elementsb {
+        font-size: 1.2rem;
+    }
+
+    .write {
+        font-size: 1.7rem;
+    }
+
+    #Page3 {
+        font-size: 1.2rem;
+        margin-top: -1rem;
+    }
+
+    #Page4 {
+        font-size: 1.2rem;
+        margin-top: -1rem;
+    }
+}
+
+/* S screen */
+@media screen and (max-width:320px) {
+    #outimage {
+        margin-top: -4rem;
+        height: 19.5rem;
+
+    }
+
+    .elementsb {
+        font-size: 1.2rem;
+    }
+
+    .write {
+        font-size: 1.7rem;
+    }
+
+    #Page3 {
+        font-size: 1.2rem;
+        margin-top: -4rem;
+    }
+
+    #Page4 {
+        font-size: 1.2rem;
+        margin-top: -4rem;
+    }
+
+}
+
+/* M screen */
+@media screen and (max-width:375px) {
+
+    .elementsb {
+        font-size: 1.2rem;
+    }
+
+    .write {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+
+    #Page3 {
+        font-size: 1.2rem;
+        margin-top: -2rem;
+    }
+
+    #Page4 {
+        font-size: 1.2rem;
+        margin-top: -2rem;
+    }
+
+}
+
+/* L screen */
+@media only screen and (min-width: 400px) {
+    #outimage {
+        min-height: 29rem;
+        margin-top: -3rem;
+
+    }
+
+    .elementsb {
+        font-size: 1.2rem;
+    }
+
+    .write {
+        font-size: 1.7rem;
+    }
+
+    #Page3 {
+        font-size: 1.2rem;
+        margin-top: -3rem;
+    }
+
+    #Page4 {
+        font-size: 1.2rem;
+        margin-top: -3rem;
+    }
+}
+
+/* XL screen */
+@media only screen and (min-width : 500px) {
+    #outimage {
+        height: 3rem;
+    }
+
+    .elementsb {
+        font-size: 2.2rem;
+    }
+
+    .write {
+        font-size: 3rem;
+    }
+
+    #Page3 {
+        font-size: 2.2rem;
+    }
+
+    #Page4 {
+        font-size: 2.2rem;
+    }
+}
+
+/* XXL screen */
+@media only screen and (min-width : 600px) {
+    #outimage {
+        height: 40rem;
+        margin-top: -10.2rem;
+    }
+
+    #Page3 {
+        margin-top: -10.2rem;
+    }
+
+    #Page4 {
+        margin-top: -10.2rem;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F0FFFF;
+    /*https://www.html.am/html-codes/color/html-white-code.cfm */
+}
+
+
+
+#jumbotron {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.outer-div {
+    border-style: solid;
+    border-color: #FFE4E1;
+    border-radius: 5px;
+    background-image: url(../img/definitivo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 500px;
+    height: 25rem;
+    margin: 0 auto;
+    margin-top: -5rem;
+
+}
+
+.inner-div {
+    margin: 0 auto;
+    max-width: 700px;
+    height: 100px;
+    padding-top: 150px;
+}
+
+
+.fixedbutton {
+    position: relative;
+    bottom: 0%;
+    left: 0px;
+    border: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.elementsb {
+    border-style: solid;
+    border-radius: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+    background-color: #FFE4E1;
+    font-family: 'Acme', sans-serif;
+    width: 100%;
+    min-width: 50px;
+    max-width: 1024px;
+
+}
+
+.freccia {
+    width: 20px;
+    height: auto;
+}
+
+#recipe {
+    font-family: 'Acme', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dish {
+    max-width: 65%;
+    height: auto;
+    max-height: 100%;
+    display: table;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: square outside;
+    margin-left: 30px;
+    padding-left: 0;
+    display: list-item;
+}
+
+#about {
+    font-family: 'Acme', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#fixedbuttondx {
+
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+#line {
+    display: inline;
+}
+
+#iconcamera {
+    border: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    float: right;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+.iconp1 {
+    width: 4rem;
+    height: auto;
+}
+
+#iconalbum {
+    border: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    float: right;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+}
+
+#iconinfo {
+    border: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+.iconp1s {
+    width: 2rem;
+    height: auto;
+}
+
+.iconback {
+    width: 4rem;
+    height: auto;
+}

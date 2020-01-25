@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Marco Dondo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css" /> <!-- stylesheet externel-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> <!--google font PACIFICO -->
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"><!--google font ACME -->
+    
+    <script type="text/javascript" src="clarifai-latest.js"></script> <!--clarifai API external -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script> <!--fontawesome icon -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- JQuery -->
+    <script type="text/javascript" src="index.js"></script> <!--javascript external -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!--AJAX -->
+    <script type="text/javascript" src="missrecipe.json"></script> <!-- JSON external -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script> <!-- javascript cordova external -->
+    
+</head>
+
+
+<body>
+    <script>
+        //code js works only if i put there in index.html
+       document.addEventListener("backbutton", onBackKeyDown, false);
+
+        function onBackKeyDown(e) {
+            e.preventDefault();
+
+            if (($('#Page2').css('display') === 'none') && ($('#Page3').css('display') === 'none') & ($('#Page4').css('display') === 'none')) {
+                navigator.app.exitApp();
+            }
+            if ($('#Page4').css('display') === 'block') {
+                show('Page1');
+            }
+            if ($('#Page2').css('display') === 'block') {
+                show('Page1');
+            }
+            if ($('#Page3').css('display') === 'block') {
+                show('Page2');
+            } }
+    </script>
+
+    <img src="img/disegno6.png" id="jumbotron" width="10000rem" height="800rem">
+    
+    <!--Page 1 -->
+    <div id="Page1" class="page">
+        <div class="outer-div" id="outimage">
+            <div id="inner-div">
+            </div>
+        </div>
+        <div id="line">
+            <button id="iconcamera" onclick="capturePhoto();">
+                <img class="iconp1" src="img/iconabiancafoto.png"></button>
+            <button id="iconalbum" onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">
+                <img class="iconp1" src="img/iconabiancalibreria.png"></button>
+            <button id="iconinfo" onclick="show('Page4');">
+                <img class="iconp1s" src="img/info.png"></button>
+        </div>
+        <img style="display:none;" id="smallImage" src="" />
+    </div>
+
+    <!--Page 2 -->
+    <div id="Page2" class="page" style="display:none; margin-top: -5rem;">
+        <div id="analysis" class="analysis">
+        </div>
+        <button class="fixedbutton" onclick="show('Page1');"> <img class="iconback" src="img/back.png" />
+        </button>
+    </div>
+    
+    <!--Page 3 -->
+    <div id="Page3" class="page" style="display:none">
+        <div id="recipe"> </div>
+        <img src="img/circle.svg" class="dish" id="loadp3">
+        <button class="fixedbutton" onclick="show('Page2');"> <img class="iconback" src="img/back.png" /> </button>
+    </div>
+    
+    <!--Page 4 -->
+    <div id="Page4" class="page" style="display:none">
+        <p id="about">
+            <u>Author:</u><br> Marco Dondo.<br> Project for graduation thesis on faculty of comunication science from University of Genoa. <br><br>
+            <u>Purpose of the application :</u><br>
+            The application allows you to photograph a dish and recognize the type of dish, based on which, it elaborates the recipe to make it real.
+            Image acquisition can be done through the camera, or by uploading the image from the photo album. <br>
+        </p>
+        <button class="fixedbutton" onclick="show('Page1');"> <img class="iconback" src="img/frecciadx.png" /> </button>
+    </div>
+    
+</body>
+
+</html>
