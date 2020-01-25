@@ -17,6 +17,8 @@ For recipe database I used another API TheMealDB link: https://www.themealdb.com
 
 <h2> Images </h2>
 
+<img src="screenshot/flowmap.jpg" width="40%"> 
+
 <img src="screenshot/gif-phoodphoto.gif" width="20%">
 Application running. Capture photo
 <br>
