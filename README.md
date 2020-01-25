@@ -15,7 +15,7 @@ I also used PhoneGap to inizialize the project and to link plugin for phone comp
 For computer vision I used API from Clarifai link: https://www.clarifai.com/ <br>
 For recipe database I used another API TheMealDB link: https://www.themealdb.com/ <br>
 <br>
-To try apk file 
+To try apk file: https://github.com/marcodondo97/App-Phood/tree/master/ApkFile 
 
 
 <h2> Images </h2>
