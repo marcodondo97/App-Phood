@@ -12,5 +12,5 @@ The operating system of the application uses APIs for various purposes, for exam
 To create this app I used Apache Cordova framework combine at Javascript.
 I also used PhoneGap to inizialize the project and to link plugin for phone components.
 
-For computer vision I used an API called Clarifai link:https://www.clarifai.com/ <br>
+For computer vision I used an API called Clarifai link: https://www.clarifai.com/ <br>
 For recipe database I used another API called TheMealDB link: https://www.themealdb.com/ <br>
