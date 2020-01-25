@@ -1,5 +1,5 @@
 # App-Phood
-Android application to recognize food through photo and get recipe.
+Android application to recognize dishes through photo and get recipe.
 
 <h2> Introduction </h2>
 This is my project for graduation thesis on faculty of Communication Science from University of Genoa (Italy).
