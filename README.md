@@ -6,7 +6,7 @@ This is my project for graduation thesis on faculty of Communication Science fro
 
 The purpose of the project involves the creation of an application for devices Android the whose operation consists in being able to take advantage of the computer vision to recognize, by an image, the type of dish, and on the basis of it provide the recipe to make it. The typical intended use is designed for users who love cook that need to identify the type of dish or the ingredients present in it in a simple and fast way, also acquiring the necessary information for to be able to cook it.
 The obtaining of the images can take place after photograph, or by browsing through the photos already present in the device.
-The operating system of the application uses APIs for various purposes, for example example those offered by the Apache Cordova framework will serve for interfacing interactive device features, such as the camera and the connection status of the device, while the APIs for using the computer vision and database support will provide a set of related information to recipes of foods and ingredients.
+The operating system of the application uses APIs for various purposes, for example those offered by the Apache Cordova framework will serve for interfacing interactive device features, such as the camera and the connection status of the device, while the APIs for using the computer vision and database support will provide a set of related information to recipes of foods and ingredients.
 
 <h2> Description</h2>
 To create this app I used Apache Cordova framework combine at Javascript.
