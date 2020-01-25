@@ -1,5 +1,5 @@
 # App-Phood
-Android application to recognize food through photo and get recipe 
+Android application to recognize food through photo and get recipe.
 
 <h2> Introduction </h2>
 This is my project for graduation thesis on faculty of Communication Science from University of Genoa (Italy).
@@ -12,5 +12,19 @@ The operating system of the application uses APIs for various purposes, for exam
 To create this app I used Apache Cordova framework combine at Javascript.
 I also used PhoneGap to inizialize the project and to link plugin for phone components.
 
-For computer vision I used an API Clarifai link: https://www.clarifai.com/ <br>
+For computer vision I used API from Clarifai link: https://www.clarifai.com/ <br>
 For recipe database I used another API TheMealDB link: https://www.themealdb.com/ <br>
+
+<h2> Images </h2>
+
+<img src="screenshot/gif-phoodphoto.gif" width="20%">
+Application running. Capture photo
+<br>
+<img src="screenshot/gif-phoodalbum.gif" width="20%">
+Application running. Selected photo from photo gallery
+<br>
+<img src="screenshot/offline-phood.jpg" width="30%">
+Check connection status
+<br>
+<img src="screenshot/selectionfail-phood.jpg" width="30%">
+Photo selection control
