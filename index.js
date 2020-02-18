@@ -94,8 +94,8 @@ function show(elementID) {
 
 
 /*function Clarifai API  */
-var clarifaiApiKey = '5e09751d8d0046b9ae66928de9868712'; //clarifai apikey
-var workflowId = 'ciao1'; //clarifai work ID
+var clarifaiApiKey = ''; //clarifai apikey
+var workflowId = ''; //clarifai work ID
 
 var app = new Clarifai.App({
     apiKey: clarifaiApiKey
