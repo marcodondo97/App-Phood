@@ -190,7 +190,7 @@ function reply_click(clicked_id)
 
     $("#loadp3").show();
     $("#recipe").hide();
-    var bla = "";
+    var b = "";
     var c = "";
 
     show('Page3');
@@ -205,11 +205,11 @@ function reply_click(clicked_id)
 
             $("#loadp3").hide();
 
-            var ciao = JSON.parse(JSON.stringify(data));
-            var bla = (ciao.meals);
+            var cit = JSON.parse(JSON.stringify(data));
+            var bet = (cit.meals);
 
             /*If results== null search in own missrecipe.JSON the correct recipe */
-            if (bla == null) {
+            if (bet == null) {
 
                 var mydata = JSON.parse(missrecipe);
 
@@ -226,20 +226,20 @@ function reply_click(clicked_id)
 
                 }
                 /*If MealDB found recipe print results */
-            } else if (c == "" && bla != null) {
-                document.getElementById("recipe").innerHTML = "<p class='write'> <strong>" + (bla[0].strMeal) + " </strong></p><img class='dish' src='" + (bla[0].strMealThumb) + "'  />" + "<br><u> Origin: </u> <br>" + (bla[0].strArea) + "<br><br><u> Ingredients: </u><br> <ul><li>" + (bla[0].strIngredient1) + "&nbsp;" + (bla[0].strMeasure1) + "</li><li>" + (bla[0].strIngredient2) + "&nbsp;" + (bla[0].strMeasure2) + "</li><li>" + (bla[0].strIngredient3) + "&nbsp;" + (bla[0].strMeasure3) + "</li><li>" + (bla[0].strIngredient4) + "&nbsp;" + (bla[0].strMeasure4) + "</li><li>" +
-                    (bla[0].strIngredient5) + "&nbsp;" + (bla[0].strMeasure5) + "</li><li>" + (bla[0].strIngredient6) + "&nbsp;" + (bla[0].strMeasure6) + "</li><li>" +
-                    (bla[0].strIngredient7) + "&nbsp;" + (bla[0].strMeasure7) + "</li><li>" + (bla[0].strIngredient8) + "&nbsp;" + (bla[0].strMeasure8) + "</li><li>" +
-                    (bla[0].strIngredient9) + "&nbsp;" + (bla[0].strMeasure9) + "</li><li>" + (bla[0].strIngredient10) + "&nbsp;" + (bla[0].strMeasure10) + "</li><li>" +
-                    (bla[0].strIngredient11) + "&nbsp;" + (bla[0].strMeasure11) + "</li><li>" + (bla[0].strIngredient12) + "&nbsp;" + (bla[0].strMeasure12) + "</li><li>" +
-                    (bla[0].strIngredient13) + "&nbsp;" + (bla[0].strMeasure13) + "</li><li>" + (bla[0].strIngredient14) + "&nbsp;" + (bla[0].strMeasure14) + "</li><li>" +
-                    (bla[0].strIngredient15) + "&nbsp;" + (bla[0].strMeasure15) + "</li><li>" + (bla[0].strIngredient16) + "&nbsp;" + (bla[0].strMeasure16) + "</li><li>" +
-                    (bla[0].strIngredient17) + "&nbsp;" + (bla[0].strMeasure17) + "</li><li>" + (bla[0].strIngredient18) + "&nbsp;" + (bla[0].strMeasure18) + "</li><li>" +
-                    (bla[0].strIngredient19) + "&nbsp;" + (bla[0].strMeasure19) + "</li><li>" + (bla[0].strIngredient20) + "&nbsp;" + (bla[0].strMeasure20) + "</li><li></ul> <br>" + "<u>Instructions:</u> <br>" + (bla[0].strInstructions);
+            } else if (c == "" && bet != null) {
+                document.getElementById("recipe").innerHTML = "<p class='write'> <strong>" + (bet[0].strMeal) + " </strong></p><img class='dish' src='" + (bet[0].strMealThumb) + "'  />" + "<br><u> Origin: </u> <br>" + (bet[0].strArea) + "<br><br><u> Ingredients: </u><br> <ul><li>" + (bet[0].strIngredient1) + "&nbsp;" + (bet[0].strMeasure1) + "</li><li>" + (bet[0].strIngredient2) + "&nbsp;" + (bet[0].strMeasure2) + "</li><li>" + (bet[0].strIngredient3) + "&nbsp;" + (bet[0].strMeasure3) + "</li><li>" + (bet[0].strIngredient4) + "&nbsp;" + (bet[0].strMeasure4) + "</li><li>" +
+                    (bet[0].strIngredient5) + "&nbsp;" + (bet[0].strMeasure5) + "</li><li>" + (bet[0].strIngredient6) + "&nbsp;" + (bet[0].strMeasure6) + "</li><li>" +
+                    (bet[0].strIngredient7) + "&nbsp;" + (bet[0].strMeasure7) + "</li><li>" + (bet[0].strIngredient8) + "&nbsp;" + (bet[0].strMeasure8) + "</li><li>" +
+                    (bet[0].strIngredient9) + "&nbsp;" + (bet[0].strMeasure9) + "</li><li>" + (bet[0].strIngredient10) + "&nbsp;" + (bet[0].strMeasure10) + "</li><li>" +
+                    (bet[0].strIngredient11) + "&nbsp;" + (bet[0].strMeasure11) + "</li><li>" + (bet[0].strIngredient12) + "&nbsp;" + (bet[0].strMeasure12) + "</li><li>" +
+                    (bet[0].strIngredient13) + "&nbsp;" + (bet[0].strMeasure13) + "</li><li>" + (bet[0].strIngredient14) + "&nbsp;" + (bet[0].strMeasure14) + "</li><li>" +
+                    (bet[0].strIngredient15) + "&nbsp;" + (bet[0].strMeasure15) + "</li><li>" + (bet[0].strIngredient16) + "&nbsp;" + (bet[0].strMeasure16) + "</li><li>" +
+                    (bet[0].strIngredient17) + "&nbsp;" + (bet[0].strMeasure17) + "</li><li>" + (bet[0].strIngredient18) + "&nbsp;" + (bet[0].strMeasure18) + "</li><li>" +
+                    (bet[0].strIngredient19) + "&nbsp;" + (bet[0].strMeasure19) + "</li><li>" + (bet[0].strIngredient20) + "&nbsp;" + (bet[0].strMeasure20) + "</li><li></ul> <br>" + "<u>Instructions:</u> <br>" + (bet[0].strInstructions);
 
             }
             /*else print recipe not found*/
-            if (c == "" && bla == null) {
+            if (c == "" && b == null) {
                 document.getElementById("recipe").innerHTML = "<p class='write'> <strong>Recipe not found! </strong></p>";
             }
             
