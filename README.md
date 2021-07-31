@@ -2,8 +2,6 @@
 Android application to recognize dishes through photo and get recipe.
 
 <h2> Introduction </h2>
-This is my project for graduation thesis on faculty of Communication Science from University of Genoa (Italy).
-
 The purpose of the project involves the creation of an application for Android devices.
 The application works thank to the computer vision system, it allows to recognize, by a photo, the type of dish, and it provides the recipe to make it. This application is designed for users who love cook and they need to identify the type of dish or the ingredients present in it in a simple and fast way.
 You can take a picture, or you can browse the photogallery and you will get all information, such as the ingredients and the recipe to cook the dish.
