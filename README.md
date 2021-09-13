@@ -9,7 +9,7 @@ The application used several APIs for various purposes, for example the APIs off
 
 <h2> Description</h2>
 To create this app I used Apache Cordova framework combine with Javascript.
-I also used PhoneGap to inizialize the project and to link plugin for phone components.
+I also used PhoneGap to inizialize the project and to link plugins for phone components.
 
 For computer vision I used API from Clarifai link: https://www.clarifai.com/ <br>
 For the database recipe I used another API called TheMealDB link: https://www.themealdb.com/ <br>
