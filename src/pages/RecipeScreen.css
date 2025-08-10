@@ -1,0 +1,153 @@
+.recipe-content {
+  --background: linear-gradient(180deg, #FFFFFF 0%, #F8F9FA 100%);
+  --overflow: scroll !important;
+  overflow: scroll !important;
+  height: 100vh !important;
+}
+
+.recipe-container {
+  padding: 20px;
+  padding-bottom: 100px; /* Spazio extra per raggiungere il bottone */
+}
+
+
+
+.loading-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.loading-container .pizza-spinner {
+  margin-bottom: 24px;
+}
+
+.loading-container .pizza-icon {
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  filter: drop-shadow(0 4px 12px rgba(220, 38, 38, 0.3));
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.loading-container h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+  margin: 0 0 12px 0;
+}
+
+.loading-container p {
+  color: #6B7280;
+  font-size: 16px;
+  margin: 0;
+}
+
+.recipe-image-container {
+  position: relative;
+  margin-bottom: 24px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.recipe-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.recipe-category {
+  background: #DC2626;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.recipe-origin {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recipe-info-card,
+.ingredients-card,
+.instructions-card {
+  margin: 16px 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.recipe-meta {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.meta-icon {
+  color: #DC2626;
+  font-size: 20px;
+}
+
+.meta-item span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1F2937;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1F2937;
+  margin: 0 0 16px 0;
+}
+
+.ingredients-list,
+.instructions-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.ingredient-item,
+.instruction-item {
+  margin-bottom: 8px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.try-again-button {
+  --background: #DC2626;
+  --background-activated: #B91C1C;
+  --color: #FFFFFF;
+  --border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  margin: 24px 0;
+}

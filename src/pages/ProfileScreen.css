@@ -1,0 +1,112 @@
+.profile-content {
+  --background: linear-gradient(180deg, #FFFFFF 0%, #F8F9FA 100%);
+  --overflow: auto !important;
+  overflow: auto !important;
+}
+
+.profile-container {
+  padding: 20px;
+  height: calc(100vh - 60px); /* Sottraggo altezza navbar */
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box;
+  position: relative !important;
+  -webkit-overflow-scrolling: touch; /* Smooth scroll su iOS */
+}
+
+
+
+.profile-info-card {
+  margin: 16px 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.profile-avatar {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.avatar-icon {
+  font-size: 64px;
+  color: #DC2626;
+  background: #FEF2F2;
+  border-radius: 50%;
+  padding: 16px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.detail-icon {
+  color: #6B7280;
+  font-size: 20px;
+}
+
+.detail-text {
+  font-size: 16px;
+  color: #1F2937;
+}
+
+.profile-actions {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  pointer-events: auto !important;
+  position: relative !important;
+}
+
+.logout-button {
+  --color: #DC2626;
+  --border-color: #DC2626;
+  --border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 999 !important;
+}
+
+.delete-button {
+  --color: #EF4444;
+  --border-color: #EF4444;
+  --border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 999 !important;
+}
+
+.app-info {
+  text-align: center;
+  margin-top: 40px;
+  pointer-events: auto !important;
+  position: relative !important;
+}
+
+.app-version {
+  color: #6B7280;
+  font-size: 14px;
+  margin: 0 0 16px 0;
+}
+
+.about-button {
+  --color: #6B7280;
+  font-size: 14px;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 999 !important;
+}

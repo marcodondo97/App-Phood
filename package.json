@@ -1,0 +1,51 @@
+{
+  "name": "phood-capacitor",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && npx cap sync",
+    "preview": "vite preview",
+    "sync": "npx cap sync"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.11.2",
+    "@aws-sdk/client-cognito-identity-provider": "^3.864.0",
+    "@capacitor/android": "^7.4.2",
+    "@capacitor/app": "7.0.2",
+    "@capacitor/camera": "^7.0.2",
+    "@capacitor/core": "7.4.2",
+    "@capacitor/filesystem": "^7.1.4",
+    "@capacitor/haptics": "7.0.2",
+    "@capacitor/keyboard": "7.0.2",
+    "@capacitor/preferences": "^7.0.2",
+    "@capacitor/status-bar": "7.0.2",
+    "@ionic/react": "^8.5.0",
+    "@ionic/react-router": "^8.5.0",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "amazon-cognito-identity-js": "^6.3.15",
+    "aws-amplify": "^6.15.5",
+    "base-64": "^1.0.0",
+    "ionicons": "^7.4.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.2",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-legacy": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "typescript": "^5.1.6",
+    "vite": "~5.2.0"
+  },
+  "overrides": {
+    "rollup": "4.44.0"
+  },
+  "description": "An Ionic project"
+}

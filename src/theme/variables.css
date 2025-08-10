@@ -1,0 +1,211 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Global font family */
+  --ion-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  /* Primary Color (Red theme for PFood) */
+  --ion-color-primary: #DC2626;
+  --ion-color-primary-rgb: 220, 38, 38;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #B91C1C;
+  --ion-color-primary-tint: #EF4444;
+
+  /* Secondary Color */
+  --ion-color-secondary: #3dc2ff;
+  --ion-color-secondary-rgb: 61, 194, 255;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #36abe0;
+  --ion-color-secondary-tint: #50c8ff;
+
+  /* Tertiary Color */
+  --ion-color-tertiary: #5260ff;
+  --ion-color-tertiary-rgb: 82, 96, 255;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #4854e0;
+  --ion-color-tertiary-tint: #6370ff;
+
+  /* Success Color */
+  --ion-color-success: #2dd36f;
+  --ion-color-success-rgb: 45, 211, 111;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #28ba62;
+  --ion-color-success-tint: #42d77d;
+
+  /* Warning Color */
+  --ion-color-warning: #ffc409;
+  --ion-color-warning-rgb: 255, 196, 9;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #e0ac08;
+  --ion-color-warning-tint: #ffca22;
+
+  /* Danger Color */
+  --ion-color-danger: #eb445a;
+  --ion-color-danger-rgb: 235, 68, 90;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #cf3c4f;
+  --ion-color-danger-tint: #ed576b;
+
+  /* Dark Color */
+  --ion-color-dark: #222428;
+  --ion-color-dark-rgb: 34, 36, 40;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #1e2023;
+  --ion-color-dark-tint: #383a3e;
+
+  /* Medium Color */
+  --ion-color-medium: #92949c;
+  --ion-color-medium-rgb: 146, 148, 156;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #808289;
+  --ion-color-medium-tint: #9d9fa6;
+
+  /* Light Color */
+  --ion-color-light: #f4f5f8;
+  --ion-color-light-rgb: 244, 245, 248;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #d7d8da;
+  --ion-color-light-tint: #f5f6f9;
+
+  /* Custom PFood variables */
+  --phood-primary: #DC2626;
+  --phood-primary-light: #EF4444;
+  --phood-primary-dark: #B91C1C;
+  --phood-secondary: #F97316;
+  --phood-accent: #FED7AA;
+  --phood-background: #FAFAFA;
+  --phood-surface: #FFFFFF;
+  --phood-text-primary: #1F2937;
+  --phood-text-secondary: #6B7280;
+  --phood-text-muted: #9CA3AF;
+  --phood-border: #E5E7EB;
+  --phood-shadow: rgba(0, 0, 0, 0.1);
+  --phood-radius: 16px;
+  --phood-radius-small: 8px;
+  --phood-spacing: 16px;
+}
+
+/* Global body styles - NATIVE APP (NO SCROLL) */
+body {
+  font-family: var(--ion-font-family);
+  background-color: var(--phood-background);
+  margin: 0;
+  padding: 0;
+  overflow: hidden !important;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Ionic content - ZERO SCROLL */
+ion-content {
+  --overflow: hidden !important;
+  --padding-top: 0;
+  --padding-bottom: 0;
+  --padding-start: 0;
+  --padding-end: 0;
+  pointer-events: auto !important;
+  touch-action: auto !important;
+}
+
+/* App container - EXACT VIEWPORT */
+ion-app {
+  height: 100vh !important;
+  width: 100vw !important;
+  overflow: hidden !important;
+  pointer-events: auto !important;
+  touch-action: auto !important;
+}
+
+/* Page containers - EXACT FIT */
+ion-page {
+  height: 100vh !important;
+  overflow: hidden !important;
+  pointer-events: auto !important;
+  touch-action: auto !important;
+}
+
+/* CLEAN BUTTON FIX - NO CONFLICTS */
+ion-button, .ion-button, button {
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(220, 38, 38, 0.1);
+}
+
+ion-button:active, .ion-button:active, button:active, [role="button"]:active {
+  transform: scale(0.98) !important;
+  transition: transform 0.1s ease !important;
+}
+
+
+
+
+
+/* Consistent button styles */
+.phood-button-primary {
+  --background: var(--phood-primary);
+  --background-hover: var(--phood-primary-light);
+  --background-activated: var(--phood-primary-dark);
+  --color: white;
+  --border-radius: var(--phood-radius);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 9999 !important;
+}
+
+.phood-button-secondary {
+  --background: transparent;
+  --color: var(--phood-primary);
+  --border-color: var(--phood-primary);
+  --border-radius: var(--phood-radius);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 9999 !important;
+}
+
+/* Consistent card styles */
+.phood-card {
+  border-radius: var(--phood-radius);
+  box-shadow: 0 4px 12px var(--phood-shadow);
+  margin: var(--phood-spacing) 0;
+}
+
+/* Consistent text styles */
+.phood-title {
+  color: var(--phood-text-primary);
+  font-weight: 700;
+  margin: 0;
+}
+
+.phood-subtitle {
+  color: var(--phood-text-secondary);
+  font-weight: 600;
+  margin: 0;
+}
+
+.phood-text {
+  color: var(--phood-text-secondary);
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.phood-text-muted {
+  color: var(--phood-text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}

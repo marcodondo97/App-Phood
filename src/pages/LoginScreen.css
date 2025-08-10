@@ -1,0 +1,123 @@
+.login-content {
+  --background: linear-gradient(180deg, #FFFFFF 0%, #F8F9FA 100%);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 24px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.login-logo {
+  font-size: 42px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 16px 0;
+}
+
+.login-subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+  margin-bottom: 8px;
+  margin: 0 0 8px 0;
+}
+
+.login-description {
+  font-size: 16px;
+  color: #6B7280;
+  margin: 0;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.input-icon {
+  color: #6B7280;
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.custom-input {
+  flex: 1;
+  --color: #1F2937;
+  --placeholder-color: #9CA3AF;
+  font-size: 16px;
+}
+
+.eye-icon {
+  color: #6B7280;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.login-button {
+  --background: #DC2626;
+  --background-activated: #B91C1C;
+  --color: #FFFFFF;
+  --border-radius: 12px;
+  --box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+  font-size: 18px;
+  font-weight: 600;
+  height: 56px;
+  margin: 0 0 24px 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: #E5E7EB;
+}
+
+.divider-text {
+  margin: 0 16px;
+  color: #6B7280;
+  font-size: 14px;
+}
+
+.register-button {
+  --color: #DC2626;
+  font-size: 16px;
+  font-weight: 600;
+  height: 56px;
+  margin: 0;
+}
+
+/* Remove default Ionic input styling */
+.custom-input.ion-input {
+  --background: transparent;
+  --border-width: 0;
+  --inner-border-width: 0;
+  --highlight-color-focused: transparent;
+}

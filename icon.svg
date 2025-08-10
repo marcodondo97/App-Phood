@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#DC2626"/>
+  
+  <!-- Testo "Phood" -->
+  <text x="256" y="380" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" 
+        font-size="72" font-weight="800" text-anchor="middle" fill="white">Phood</text>
+  
+  <!-- Icona utensili stile FontAwesome -->
+  <g transform="translate(256, 200)" fill="white">
+    <!-- Forchetta (sinistra) -->
+    <g transform="translate(-60, 0)">
+      <!-- Manico -->
+      <rect x="-6" y="40" width="12" height="80" rx="6" fill="white"/>
+      <!-- Rebbi -->
+      <rect x="-15" y="-40" width="6" height="85" rx="3" fill="white"/>
+      <rect x="-5" y="-40" width="6" height="90" rx="3" fill="white"/>
+      <rect x="5" y="-40" width="6" height="85" rx="3" fill="white"/>
+      <rect x="15" y="-40" width="6" height="80" rx="3" fill="white"/>
+    </g>
+    
+    <!-- Coltello (destra) -->
+    <g transform="translate(60, 0)">
+      <!-- Manico -->
+      <rect x="-6" y="40" width="12" height="80" rx="6" fill="white"/>
+      <!-- Lama -->
+      <path d="M-8,-40 L8,-40 L12,0 L8,40 L-8,40 L-12,0 Z" fill="white"/>
+    </g>
+  </g>
+</svg>

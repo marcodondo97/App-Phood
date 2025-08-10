@@ -1,0 +1,7 @@
+{
+  "name": "phood-capacitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

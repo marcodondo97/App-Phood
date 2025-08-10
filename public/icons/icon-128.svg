@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#DC2626"/>
+  <text x="64" y="102" font-family="Inter, sans-serif" font-size="22" font-weight="800" text-anchor="middle" fill="white">Phood</text>
+  
+  <!-- Utensili -->
+  <g transform="translate(64, 42)" fill="white">
+    <!-- Forchetta -->
+    <g transform="translate(-20, 0)">
+      <rect x="-3" y="16" width="6" height="20" rx="3" fill="white"/>
+      <rect x="-8" y="-16" width="3" height="34" rx="1.5" fill="white"/>
+      <rect x="-2" y="-16" width="3" height="36" rx="1.5" fill="white"/>
+      <rect x="4" y="-16" width="3" height="34" rx="1.5" fill="white"/>
+      <rect x="10" y="-16" width="3" height="32" rx="1.5" fill="white"/>
+    </g>
+    
+    <!-- Coltello -->
+    <g transform="translate(20, 0)">
+      <rect x="-3" y="16" width="6" height="20" rx="3" fill="white"/>
+      <path d="M-5,-16 L5,-16 L6,16 L-6,16 Z" fill="white"/>
+    </g>
+  </g>
+</svg>
