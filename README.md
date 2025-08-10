@@ -164,11 +164,15 @@ This project is under MIT license. See the `LICENSE` file for more details.
 
 Contributions are welcome! Please read the contribution guidelines before submitting a pull request.
 
-## Workflow
-
+## Userflow
 <div align="center">
-  <img src="doc/img/phood-workflow.png" alt="Phood App User Flow" width="500"/>
-  <img src="doc/img/phood-usage.gif" alt="Phood App Usage Demo" width="200"/>
+<table>
+  <tr>
+    <td><img src="doc/img/phood-workflow.png" alt="Phood App User Flow" width="500"/></td>
+    <td><img src="doc/img/phood-usage.gif" alt="Phood App Usage Demo" width="200"/></td>
+  </tr>
+</table>
 </div>
+
 
 ---
