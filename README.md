@@ -1,23 +1,20 @@
-# Phood - AI Food Recognition App
+# Phood
 
 ## Introduction
 
-**Phood** is an innovative mobile application that combines artificial intelligence with culinary passion. The app allows users to automatically identify foods through photographs and obtain detailed recipes in real-time.
-
-The application has been developed using modern technologies to ensure a smooth and intuitive user experience, offering advanced food recognition features through AI.
+**Phood** is a mobile app that uses artificial intelligence to identify foods from photos and instantly provide detailed recipes. Built with modern technologies, it delivers a fast, intuitive, and reliable user experience focused on advanced AI-powered food recognition.
 
 
 ## Description
 
-Phood transforms the way we interact with food through technology:
+**Phood** revolutionizes the way you engage with food using cutting-edge technology:
 
-- **AI Recognition**: Take a photo of your dish and the AI will automatically identify the ingredients
-- **Instant Recipes**: Receive complete recipes with ingredients, measurements, and step-by-step instructions
-- **Secure Authentication**: Protected login system with AWS Cognito
-- **Responsive Design**: Interface optimized for mobile devices
-- **Optimized Performance**: Fast loading and intelligent caching
+- **AI Recognition**: Snap a photo and let the AI identify your dish and ingredients  
+- **Instant Recipes**: Get complete recipes with measurements and step-by-step instructions  
+- **Secure Login**: Safe authentication powered by Amazon Cognito  
+- **Mobile-First Design**: Optimized for a seamless experience on any device  
 
-The application is designed to be used by both expert chefs and cooking beginners, offering a personalized and accessible experience.
+Designed for both seasoned chefs and beginners, Phood makes cooking smarter, faster, and more accessible.
 
 ### Technologies Used
 
@@ -27,8 +24,8 @@ The application is designed to be used by both expert chefs and cooking beginner
   <img src="docs/img/ionic-logo.png" alt="Ionic" width="80" height="80"/>
 </div>
 
-- **React : Modern JavaScript framework for building interactive user interfaces  
-- **Ionic: Framework for cross-platform hybrid application development  
+- **React**: Modern JavaScript framework for building interactive user interfaces  
+- **Ionic**: Framework for cross-platform hybrid application development  
 
 #### Third-Party Technologies
 
@@ -37,7 +34,7 @@ The application is designed to be used by both expert chefs and cooking beginner
   <img src="docs/img/cognito-logo.png" alt="AWS Cognito" width="130" height="130"/>
 </div>
 
-- **[AWS Cognito](https://aws.amazon.com/cognito/)**: User authentication and management service  
+- **[Amazon Cognito](https://aws.amazon.com/cognito/)**: User authentication and management service  
 
 ##### AI & Machine Learning  
 <div align="left">
@@ -46,19 +43,19 @@ The application is designed to be used by both expert chefs and cooking beginner
 
 - **[Clarifai API](https://www.clarifai.com/)**: Artificial intelligence platform for image recognition  
 
+##### Recipe Database  
+<div align="left">
+  <img src="docs/img/mealdb-logo.png" alt="TheMealDB" width="80" height="80"/>
+</div>
+
+- **[TheMealDB API](https://www.themealdb.com/)**: Free international recipe database
+
 ##### Mobile Development  
 <div align="left">
   <img src="docs/img/capacitor-logo.png" alt="Capacitor" width="80" height="80"/>
 </div>
 
 - **[Capacitor 7.4.2](https://capacitorjs.com/)**: Framework for native app development
-
-##### Recipe Database  
-<div align="left">
-  <img src="docs/img/mealdb-logo.png" alt="TheMealDB" width="80" height="80"/>
-</div>
-
-- **[TheMealDB API](https://www.themealdb.com/)**: Free international recipe database   
 
 ### Getting start 
 
@@ -88,8 +85,9 @@ npm run sync
 <div align="left">
   <img src="docs/img/appflow-logo.png" alt="Ionic appflow" width="150" />
 </div>
-<a href="https://ionic.io/appflow" target="_blank" rel="noopener noreferrer">Ionic Appflow</a> is a cloud-based DevOps platform for Ionic apps. It simplifies development with automated builds, live updates, and easy app store deployment, helping you release faster and keep your apps up-to-date across all platforms.
-<br/> <br/>
+<a href="https://ionic.io/appflow" target="_blank" rel="noopener noreferrer">Ionic Appflow</a> is a cloud DevOps platform for Ionic apps offering automated builds, live updates, and easy deployment to app stores.
+<br/><br/>
+
 1. Go to Ionic Appflow sign up with GitHub, and connect your repository.  
 2. Select the last commit or the branch you want to build from.  
 3. Add environment variables as defined in your `.env` file.  
@@ -102,11 +100,8 @@ npm run sync
 <div align="center">
 <table>
   <tr>
-    <td><img src="docs/img/phood-workflow.png" alt="Phood App User Flow" width="500"/></td>
-    <td><img src="docs/img/phood-usage.gif" alt="Phood App Usage Demo" width="200"/></td>
+    <td><img src="docs/img/phood-workflow.png" alt="Phood App User Flow" width="500"/></td> 
+    <td><img src="docs/img/phood-usage.gif" alt="Phood App Usage Demo" width="200"/></td>   
   </tr>
 </table>
 </div>
-
-
----
