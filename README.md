@@ -84,12 +84,12 @@ npm run build
 npm run sync
 ```
 
-##Deploy
+## Deploy
 <div align="left">
   <img src="docs/img/appflow-logo.png" alt="Ionic appflow" width="150" />
 </div>
-<a href="https://ionic.io/appflow" target="_blank" rel="noopener noreferrer">Ionic Appflow</a> is a powerful cloud-based DevOps platform designed specifically for Ionic apps. It simplifies app development by offering features like automated builds, live updates, and easy deployment to app stores. With seamless integration into your existing workflow, Appflow accelerates your release cycles and ensures your Ionic applications stay up-to-date and performant across all platforms.
-
+<a href="https://ionic.io/appflow" target="_blank" rel="noopener noreferrer">Ionic Appflow</a> is a cloud-based DevOps platform for Ionic apps. It simplifies development with automated builds, live updates, and easy app store deployment, helping you release faster and keep your apps up-to-date across all platforms.
+<br/> <br/>
 1. Go to Ionic Appflow sign up with GitHub, and connect your repository.  
 2. Select the last commit or the branch you want to build from.  
 3. Add environment variables as defined in your `.env` file.  
