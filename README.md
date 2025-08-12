@@ -1,12 +1,14 @@
 # Phood - AI Food Recognition App
 
-## Introduction
+## 1) Introduction
 
 **Phood** is an innovative mobile application that combines artificial intelligence with culinary passion. The app allows users to automatically identify foods through photographs and obtain detailed recipes in real-time.
 
 The application has been developed using modern technologies to ensure a smooth and intuitive user experience, offering advanced food recognition features through AI.
 
-## Description
+---
+
+## 2) Description
 
 Phood transforms the way we interact with food through technology:
 
@@ -18,111 +20,74 @@ Phood transforms the way we interact with food through technology:
 
 The application is designed to be used by both expert chefs and cooking beginners, offering a personalized and accessible experience.
 
-## Technologies Used
+### Technologies Used
 
-### Frontend Framework
+#### Frontend Framework  
 <div align="left">
   <img src="docs/img/react-logo.png" alt="React" width="80" height="80"/>
   <img src="docs/img/ionic-logo.png" alt="Ionic" width="80" height="80"/>
 </div>
 
-- **React 19.0.0**: Modern JavaScript framework for building interactive user interfaces
-- **TypeScript 5.1.6**: Typed language that extends JavaScript for more robust and maintainable code
-- **Ionic React 8.5.0**: Framework for cross-platform hybrid application development
-- **React Router 5.3.4**: Routing management and navigation between application pages
+- **React 19.0.0**: Modern JavaScript framework for building interactive user interfaces  
+- **TypeScript 5.1.6**: Typed language that extends JavaScript for more robust and maintainable code  
+- **Ionic React 8.5.0**: Framework for cross-platform hybrid application development  
+- **React Router 5.3.4**: Routing management and navigation between application pages  
 
-### Build Tools & Development
-- **Vite 5.2.0**: Modern and fast build tool for frontend development
-- **@vitejs/plugin-react**: Plugin for React integration with Vite
-- **@vitejs/plugin-legacy**: Legacy browser support
+#### Third-Party Technologies
 
-### Styling & UI
-- **Styled Components 6.1.19**: CSS-in-JS for styled and reusable components
-- **Ionicons 7.4.0**: Vector icon library for user interface
-
-## Third-Party Technologies
-
-### Cloud & Authentication
+##### Cloud & Authentication  
 <div align="left">
   <img src="docs/img/cognito-logo.png" alt="AWS Cognito" width="130" height="130"/>
 </div>
 
-- **[AWS Cognito](https://aws.amazon.com/cognito/)**: User authentication and management service
-  - Secure user account management
-  - Multi-factor authentication
-  - Integration with AWS Amplify for React
-- **AWS Amplify 6.15.5**: Framework for full-stack application development
-- **Amazon Cognito Identity Provider**: Advanced identity management
+- **[AWS Cognito](https://aws.amazon.com/cognito/)**: User authentication and management service  
+  - Secure user account management  
+  - Multi-factor authentication  
+  - Integration with AWS Amplify for React  
+- **AWS Amplify 6.15.5**: Framework for full-stack application development  
+- **Amazon Cognito Identity Provider**: Advanced identity management  
 
-### AI & Machine Learning
+##### AI & Machine Learning  
 <div align="left">
   <img src="docs/img/clarifai-logo.png" alt="Clarifai" width="80" height="80"/>
 </div>
 
-- **[Clarifai API](https://www.clarifai.com/)**: Artificial intelligence platform for image recognition
-  - Specialized model for food recognition
-  - Real-time image analysis
-  - Return of concepts with confidence levels
+- **[Clarifai API](https://www.clarifai.com/)**: Artificial intelligence platform for image recognition  
+  - Specialized model for food recognition  
+  - Real-time image analysis  
+  - Return of concepts with confidence levels  
 
-### Mobile Development
+##### Mobile Development  
 <div align="left">
   <img src="docs/img/capacitor-logo.png" alt="Capacitor" width="80" height="80"/>
 </div>
 
-- **[Capacitor 7.4.2](https://capacitorjs.com/)**: Framework for native app development
-  - **@capacitor/camera**: Device camera access
-  - **@capacitor/filesystem**: Local file management
-  - **@capacitor/preferences**: User preferences storage
-  - **@capacitor/haptics**: Tactile feedback
-  - **@capacitor/status-bar**: Status bar management
-  - **@capacitor/keyboard**: Virtual keyboard management
+- **[Capacitor 7.4.2](https://capacitorjs.com/)**: Framework for native app development  
+  - **@capacitor/camera**: Device camera access  
+  - **@capacitor/filesystem**: Local file management  
+  - **@capacitor/preferences**: User preferences storage  
+  - **@capacitor/haptics**: Tactile feedback  
+  - **@capacitor/status-bar**: Status bar management  
+  - **@capacitor/keyboard**: Virtual keyboard management  
 
-### Recipe Database
+##### Recipe Database  
 <div align="left">
   <img src="docs/img/mealdb-logo.png" alt="TheMealDB" width="80" height="80"/>
 </div>
 
-- **[TheMealDB API](https://www.themealdb.com/)**: Free international recipe database
-  - Over 500+ recipes from around the world
-  - Detailed ingredients with precise measurements
-  - Step-by-step instructions
-  - Nutritional information and categories
+- **[TheMealDB API](https://www.themealdb.com/)**: Free international recipe database  
+  - Over 500+ recipes from around the world  
+  - Detailed ingredients with precise measurements  
+  - Step-by-step instructions  
+  - Nutritional information and categories  
 
-### Utility Libraries
-- **base-64**: Base64 encoding and decoding for images
-- **react-router-dom**: Advanced routing for React
+##### Utility Libraries  
+- **base-64**: Base64 encoding and decoding for images  
+- **react-router-dom**: Advanced routing for React  
 
-## Main Features
 
-### Secure Authentication
-- Registration and login with AWS Cognito
-- Secure user session management
-- Protected route authentication
 
-### AI Recognition
-- Integrated photo capture
-- Gallery selection
-- Real-time AI analysis
-- Multiple ingredient identification
-
-### Recipe System
-- Automatic search based on identified ingredients
-- Complete recipes with precise measurements
-- Detailed step-by-step instructions
-- Information about cuisine of origin
-
-### Intelligent Cache
-- Analysis results storage
-- Avoids re-analysis of identical images
-- Performance improvement
-
-## Compatibility
-
-- **iOS**: 14.0+
-- **Android**: API Level 21+
-- **Web**: Modern browsers (Chrome 79+, Firefox 70+, Safari 14+)
-
-## Installation
+### Getting start 
 
 ```bash
 # Clone the repository
@@ -146,23 +111,19 @@ npm run build
 npm run sync
 ```
 
-## Technical Features
+##Deploy
+<div align="left">
+  <img src="docs/img/appflow-logo.png" alt="AWS Amplify" width="150" />
+</div>
+<a href="https://ionic.io/appflow" target="_blank" rel="noopener noreferrer">Ionic Appflow</a> is a powerful cloud-based DevOps platform designed specifically for Ionic apps. It simplifies app development by offering features like automated builds, live updates, and easy deployment to app stores. With seamless integration into your existing workflow, Appflow accelerates your release cycles and ensures your Ionic applications stay up-to-date and performant across all platforms.
 
-- **Architecture**: Single Page Application (SPA)
-- **Pattern**: Component-based with React Hooks
-- **State Management**: React useState/useEffect
-- **Routing**: React Router with route protection
-- **Styling**: CSS Modules + Styled Components
-- **Build**: Vite with production optimizations
-- **Deployment**: Capacitor for native apps
+1. Go to Ionic Appflow sign up with GitHub, and connect your repository.  
+2. Select the last commit or the branch you want to build from.  
+3. Add environment variables as defined in your `.env` file.  
+4. Upload your Android keystore for signing the APK.  
+5. Configure the build settings and select Android APK build.  
+6. Start the build and download the generated APK once completed.
 
-## License
-
-This project is under MIT license. See the `LICENSE` file for more details.
-
-## Contributing
-
-Contributions are welcome! Please read the contribution guidelines before submitting a pull request.
 
 ## Userflow
 <div align="center">
