@@ -100,7 +100,7 @@ npm run sync
 <div align="center">
 <table>
   <tr>
-    <td><img src="docs/img/phood-workflow.png" alt="Phood App User Flow" width="500"/></td> 
+    <td><img src="docs/img/phood-mockup.png" alt="Phood App User Flow" width="500"/></td> 
     <td><img src="docs/img/phood-usage.gif" alt="Phood App Usage Demo" width="200"/></td>   
   </tr>
 </table>
