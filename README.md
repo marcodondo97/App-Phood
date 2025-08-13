@@ -96,7 +96,7 @@ npm run sync
 6. Start the build and download the generated APK once completed.
 
 
-## Userflow
+## Result
 <div align="center">
 <table>
   <tr>
