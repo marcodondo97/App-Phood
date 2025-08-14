@@ -1,4 +1,4 @@
-# Phood
+# Phood Mobile App
 
 ## Introduction
 
