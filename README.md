@@ -29,21 +29,13 @@ Designed for both seasoned chefs and beginners, Phood makes cooking smarter, fas
 
 #### Third-Party Technologies
 
-##### Cloud & Authentication  
 - **[Amazon Cognito](https://aws.amazon.com/cognito/)**: User authentication and management service  
-
-##### AI & Machine Learning  
+- **[Capacitor 7.4.2](https://capacitorjs.com/)**: Framework for native app development
 - **[Clarifai API](https://www.clarifai.com/)**: Artificial intelligence platform for image recognition  
-
-##### Recipe Database  
 - **[TheMealDB API](https://www.themealdb.com/)**: Free international recipe database
 
-##### Mobile Development  
-
-- **[Capacitor 7.4.2](https://capacitorjs.com/)**: Framework for native app development
-
 <div align="center">
-  <img src="docs/img/apiflow.png" alt="phood api flow" width="130" height="130"/>
+  <img src="docs/img/api-flow.png" alt="phood api flow" width="700"/>
 </div>
 
 ### Getting start 
