@@ -38,7 +38,7 @@ Designed for both seasoned chefs and beginners, Phood makes cooking smarter, fas
   <img src="docs/img/api-flow.png" alt="phood api flow" width="700"/>
 </div>
 
-### Getting start 
+### Getting started
 
 ```bash
 # Clone the repository
