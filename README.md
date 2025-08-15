@@ -38,11 +38,11 @@ Designed for both seasoned chefs and beginners, Phood makes cooking smarter, fas
   <img src="docs/img/api-flow.png" alt="phood api flow" width="700"/>
 </div>
 
-### Getting started
+## Getting started
 
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/marcodondo97/App-Phood.git
 cd phood-capacitor
 
 # Install dependencies
