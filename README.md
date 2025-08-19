@@ -43,7 +43,7 @@ Designed for both seasoned chefs and beginners, Phood makes cooking smarter, fas
 ```bash
 # Clone the repository
 git clone https://github.com/marcodondo97/App-Phood.git
-cd phood-capacitor
+cd App-Phood
 
 # Install dependencies
 npm install
